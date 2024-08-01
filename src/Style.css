@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(222, 201, 201);
+}
+
+.container{
+    border: 10px rgb(214, 100, 100) solid;
+    width: 21%;
+    height: 380px;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.custom{
+    width: 240px;
+    height: 80px;
+    position: relative;
+    top:10px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    background-color: silver;
+    border-radius: 10px;
+    left: 5px;
+}
+button{
+    height: 50px; 
+    width: 50px;
+    margin-top: 10px;
+    position: relative;
+    top:20px;
+    right: 5px;
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: rgb(207, 35, 35) ;
+}
