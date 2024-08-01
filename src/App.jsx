@@ -18,7 +18,7 @@ function App() {
   return (
     <> 
     <h1 style={{textAlign:'center',fontFamily:"revert",color:"brown"}}>Simple Calculator</h1>
-      <div className='container'>
+      <div className='container main'>
         <div className="row  row1">
           <input className="col-12 text-end custom" value={count}></input>
         </div>

@@ -4,34 +4,39 @@ body{
 
 .container{
     border: 10px rgb(214, 100, 100) solid;
-    width: 21%;
-    height: 380px;
+    max-width:fit-content;
     margin-top: 40px;
     background-color: black;
     border-radius: 10px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
 .custom{
     width: 240px;
-    height: 80px;
     position: relative;
+  
+    font-size: 30px;
     top:10px;
     display: flex;
     align-items: center;
     justify-content:end;
     background-color: silver;
-    border-radius: 10px;
-    left: 5px;
+    border-radius: 1px;
+    outline: none;
+    margin-bottom:20px;
+   
 }
 button{
-    height: 50px; 
-    width: 50px;
-    margin-top: 10px;
-    position: relative;
-    top:20px;
-    right: 5px;
+    width:100%;
+    height: 70%;
     border-radius: 50%;
+    margin:10px 1px;
+    position: relative;
+    top:-10px;
+  
 }
 
 button:hover{
